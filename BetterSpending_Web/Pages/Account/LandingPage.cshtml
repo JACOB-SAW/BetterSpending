@@ -1,5 +1,5 @@
-﻿@page
-@model IndexModel
+@page
+@model BetterSpending_Web.Pages.Account.LandingPageModel
 @{
     ViewData["Title"] = "Home page";
 }
@@ -21,8 +21,8 @@
                     <h2 class="text-warning fw-bold">Finances Made Easy</h2>
                     <form class="mt-3" action="/login" method="post">
                         <div class="text-danger" asp-validation-summary="All"></div>
-                        <p><a href="#" class="text-white text-decoration-none" aria-label="Sign In">Sign In</a></p>
-                        <p><a href="#" class="text-white text-decoration-none" aria-label="Create Account">Create Account</a></p>
+                        <p><a href="/Account/SignIn" class="text-white text-decoration-none" aria-label="Sign In">Sign In</a></p>
+                        <p><a href="/Account/Register" class="text-white text-decoration-none" aria-label="Create Account">Create Account</a></p>
                     </form>
                 </div>
             </div>
