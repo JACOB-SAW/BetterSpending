@@ -1,5 +1,3 @@
-﻿using Microsoft.Identity.Client;
-
 namespace BetterSpending_Web.Model
 {
     public class IndexBudget

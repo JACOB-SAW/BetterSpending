@@ -34,7 +34,7 @@ namespace BetterSpending_Web.Pages.Account
                 }
             }
             populateUserList(); // Refresh the budget list after deletion
-            return RedirectToPage("/Account/ViewUsers"); // Redirect to the same page to refresh the budget list
+            return RedirectToPage("/Account/ViewUsers"); // Redirect to the same page to refresh the budget list
         }
         
         public void populateUserList()
